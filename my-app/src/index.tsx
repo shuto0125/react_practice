@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Hello from './component/Hello';
 import ContainerSample from './component/ContainerSample';
 import Page from './component/ContextSample';
+import Counter from './component/Counter';
+import ReduceCounter from './component/ReduceCounter';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,6 +18,8 @@ root.render(
     <Hello />
     <ContainerSample />
     <Page />
+    <Counter initialValue={0} />
+    <ReduceCounter initialValue={0} />
   </React.StrictMode>
 );
 
