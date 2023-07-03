@@ -8,6 +8,9 @@ import ContainerSample from './component/ContainerSample';
 import Page from './component/ContextSample';
 import Counter from './component/Counter';
 import ReduceCounter from './component/ReduceCounter';
+import { MemoParent } from './component/MemoParent';
+import { UseCallbackSample } from './component/UseCallbackSample';
+import { UseMemoSample } from './component/UseMemoSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -20,6 +23,9 @@ root.render(
     <Page />
     <Counter initialValue={0} />
     <ReduceCounter initialValue={0} />
+    <MemoParent />
+    <UseCallbackSample />
+    <UseMemoSample />
   </React.StrictMode>
 );
 
