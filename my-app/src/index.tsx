@@ -12,6 +12,7 @@ import { MemoParent } from './component/MemoParent';
 import { UseCallbackSample } from './component/UseCallbackSample';
 import { UseMemoSample } from './component/UseMemoSample';
 import { Clock } from './component/Clock'
+import { UseContextSample } from './component/UseContextSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -28,6 +29,7 @@ root.render(
     <UseCallbackSample />
     <UseMemoSample />
     <Clock />
+    <UseContextSample />
   </React.StrictMode>
 );
 
