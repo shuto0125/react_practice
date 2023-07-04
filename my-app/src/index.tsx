@@ -15,6 +15,7 @@ import { Clock } from './component/Clock'
 import { UseContextSample } from './component/UseContextSample';
 import { ImageUploader } from './component/UseRefSample';
 import { UseImperativeHandleSample } from './component/UseImperativeHandleSample';
+import { CustomInput } from './component/CustomHookSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -34,7 +35,7 @@ root.render(
     <UseContextSample />
     <ImageUploader />
     <UseImperativeHandleSample />
-
+    <CustomInput />
 
     <div style={{ paddingBottom: '100px' }}></div>
   </React.StrictMode>
