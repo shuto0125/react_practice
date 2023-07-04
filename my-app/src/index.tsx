@@ -13,6 +13,8 @@ import { UseCallbackSample } from './component/UseCallbackSample';
 import { UseMemoSample } from './component/UseMemoSample';
 import { Clock } from './component/Clock'
 import { UseContextSample } from './component/UseContextSample';
+import { ImageUploader } from './component/UseRefSample';
+import { UseImperativeHandleSample } from './component/UseImperativeHandleSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -30,6 +32,11 @@ root.render(
     <UseMemoSample />
     <Clock />
     <UseContextSample />
+    <ImageUploader />
+    <UseImperativeHandleSample />
+
+
+    <div style={{ paddingBottom: '100px' }}></div>
   </React.StrictMode>
 );
 
